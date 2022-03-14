@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>F1 Race Registration</h1>
+    <form action="https://www.formula1.com">
+        <p>
+            <label for="fN">First Name</label>
+            <input type="text" required id="fN" name="first_name">
+            <label for="lN">Last Name</label>
+            <input type="text" required id="lN" name="last_name">
+        </p>
+        <p>
+            <h3>Select your car</h3>
+            <label for="lambo">Lamborgini</label>
+            <input type="radio" name="car" id="lambo" value="Lamborgini">
+            <label for="ferr">Ferrari</label>
+            <input type="radio" name="car" id="ferr" value="Ferrari">
+            <label for="bent">Bentley</label>
+            <input type="radio" name="car" id="bent" value="Bentley">
+        </p>
+        <p>
+            <label for="uN">Username</label>
+            <input type="email" required id="uN" name="email">
+            <label for="pW">Password</label>
+            <input type="password" required id="pW" name="password">
+        </p>
+        <p>
+            <label for="dd">Select Age </label>
+            <select name="Age" id="dd">
+                <option value="children">18 Below</option>
+                <option value="young">22-35</option>
+                <option value="middle_aged">36-45</option>
+                <option value="over_the_hill">45-60</option>
+            </select>
+        </p>
+        <button>Register</button>
+    </form>
+</body>
+
+</html>
